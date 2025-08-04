@@ -3,6 +3,7 @@ import {
   FaLinkedin,
   FaSquareFacebook,
   FaSquareXTwitter,
+  FaSquareInstagram,
 } from "react-icons/fa6";
 
 const Home = () => {
@@ -15,15 +16,28 @@ const Home = () => {
           <p className="text-2xl text-amber-400">Im a full-stack developer</p>
         </h1>
         <div className="flex items-center gap-4 mt-3">
-          <FaSquareXTwitter
-            size={30}
-            className="text-white hover:text-blue-500"
-          />
-          <FaSquareFacebook
-            size={30}
-            className="text-white hover:text-blue-500"
-          />
-          <FaLinkedin size={30} className="text-white hover:text-blue-500" />
+          <a href="https://x.com/EksSaravanan">
+            <FaSquareXTwitter
+              size={30}
+              className="text-white hover:text-black"
+            />
+          </a>
+          <a href="linkedin.com/in/saravanan-elangovan-891864319">
+            <FaLinkedin size={30} className="text-white hover:text-blue-800" />
+          </a>
+
+          <a href="https://www.instagram.com/eks_sharvan">
+            <FaSquareInstagram
+              size={30}
+              className="text-white hover:text-pink-600"
+            />
+          </a>
+          <a href="https://www.facebook.com/saravanan.elangovan.818870">
+            <FaSquareFacebook
+              size={30}
+              className="text-white hover:text-blue-700"
+            />
+          </a>
         </div>
       </div>
       <div className="md:w-1/2">

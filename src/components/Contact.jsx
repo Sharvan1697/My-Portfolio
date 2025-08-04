@@ -8,7 +8,7 @@ const Contact = () => {
         <p className="py-5 font-medium">
           If you want to discuss more in details, please contact me
         </p>
-        <p className="py-2">
+        <p className="py-2 font-bold">
           Email :{" "}
           <span className="font-normal hover:text-green-500">
             sharvanskv62@gmail.com
