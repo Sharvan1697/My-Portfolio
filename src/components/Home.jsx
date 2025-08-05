@@ -22,7 +22,7 @@ const Home = () => {
               className="text-white hover:text-black"
             />
           </a>
-          <a href="linkedin.com/in/saravanan-elangovan-891864319">
+          <a href="https://www.linkedin.com/in/saravanan-elangovan-891864319/">
             <FaLinkedin size={30} className="text-white hover:text-blue-800" />
           </a>
 

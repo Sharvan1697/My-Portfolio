@@ -16,7 +16,7 @@ const Resume = () => {
           <p className="font-serif italic font-bold text-blue-500 text-4xl text-center">
             Resume{" "}
             <a
-              href="../public/Saravanan_Resume_latest.pdf"
+              href="Resume_latest.pdf"
               download
               className="font-bold hover:bg-yellow-300 hover:text-white"
             >
